@@ -12,3 +12,7 @@ export function checkType (type) {
   }
   return type
 }
+
+export function upSkill (skillValue) {
+  return skillValue + skillValue * 0.2;
+}
